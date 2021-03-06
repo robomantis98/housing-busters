@@ -1,5 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
+import { NavLink, 
+          Route, 
+          Switch 
+} from 'react-router-dom'
+import { connect } from 'react-redux'; 
+
 
 function App() {
   return (
